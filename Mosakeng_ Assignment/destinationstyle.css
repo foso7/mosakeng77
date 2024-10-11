@@ -1,0 +1,25 @@
+.destination-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.destination-item {
+    width: 300px;
+    text-align: center;
+}
+
+.destination-item img {
+    width: 100%;
+    height: auto;
+}
+
+.destination-item a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.destination-item a:hover {
+    text-decoration: underline;
+}
